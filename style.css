@@ -1,0 +1,114 @@
+.navbar{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    box-shadow: 2px 2px 2px 2px gray;
+    gap: 500px
+
+    
+}
+.logo img{
+    width: 50px;
+
+}
+.rightside ul {
+    display: flex;
+    gap: 10px;
+}
+.rightside ul li {
+    list-style: none;
+    text-decoration: none;
+}
+.rightside ul li a{
+    text-decoration: none;
+    color: blue;
+}
+.rightside ul li:hover{
+    background-color: black;
+
+
+}
+.banner {
+    width:100% ;
+    height: 250px;
+    margin-bottom: 20px;
+   
+
+}
+.banner>img{
+    width: 100%;
+    height: 250px;
+    max-width: 1500px;     min-width: 500px;
+}
+@media  (max-width:500px) {
+    .navbar{
+        gap: 50px;
+       width: 100%;
+
+    
+
+    }
+    
+}
+.main{
+    width: 100%;
+    height:700px;
+    background-color: orange;
+}
+.card{
+    width: 100%;
+    height: 700px;
+    background-color: transparent;
+    display: flex;
+    gap: 150px;
+    mar
+}
+.c1{
+    width: 40%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.c1 img {
+    width: 50%;
+    height: 150px;
+    position: relative;
+    left: 70px;
+}
+.c1 button{
+    width: 20%;
+    height: 30px;
+    text-align: center;
+     background-color: yellow;
+     position: relative
+     ;
+     left: 180px;
+
+}
+.c1 h1{
+    text-align: center;
+    
+}
+@media  (max-width:500px) {
+    .card{
+        flex-direction: column;
+     align-items: center;
+
+    }
+    .c1 button{
+        background-color: transparent;
+
+        border: none;
+
+    }.main{
+        width: 100%;
+        height:1200px;
+        background-color: orange;
+    
+}
+
+
+
+
